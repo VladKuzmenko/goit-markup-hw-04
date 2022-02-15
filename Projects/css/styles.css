@@ -104,15 +104,17 @@ margin-right: 93px;
     color: var(--accent-color);
     }
 
-.contacts-header .item {
-    align-items: center;
+.contacts-header.item.link {
+    display: flex;
 }
-
 .contacts-header {
-    display: inline-flex;
+    display: flex;
     margin-left: auto;
 }
-
+.envelope-icon,
+.tel-icon {
+    fill:#757575;
+}
 /* contacts header */
 .contacts-header .link {
     color: var(--primary-text-color);
