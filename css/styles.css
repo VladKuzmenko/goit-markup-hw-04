@@ -100,6 +100,14 @@ margin-right: 93px;
 .site-nav .link:focus {
     color: var(--accent-color);
     }
+.contacts-header .link:hover .envelope-icon,
+.contacts-header .link:focus .envelope-icon {
+    fill: var(--accent-color);
+}
+.contacts-header .link:hover .tel-icon,
+.contacts-header .link:focus .tel-icon {
+    fill: var(--accent-color);
+}
 .site-nav .link.current {
     color: var(--accent-color);
     }
@@ -110,10 +118,12 @@ margin-right: 93px;
 .contacts-header {
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 .envelope-icon,
 .tel-icon {
     fill:#757575;
+    margin-right: 10px;
 }
 /* contacts header */
 .contacts-header .link {
@@ -123,6 +133,7 @@ margin-right: 93px;
     font-size: 14px;
     line-height: 1.14;
     display: inline-flex;
+    align-items: center;
 }
 .contacts-header .link:hover,
 .contacts-header .link:focus {
@@ -538,4 +549,10 @@ margin-top: 0;
 .card-specification {
     padding: 20px 0 20px 24px;
     border: 1px solid #EEEEEE;
+}
+.specification .item:hover,
+.specification .item:focus {
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
 }
