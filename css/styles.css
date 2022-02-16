@@ -132,13 +132,11 @@ margin-right: 93px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    display: inline-flex;
     align-items: center;
 }
 .contacts-header .link:hover,
 .contacts-header .link:focus {
     color: var(--accent-color);
-    display: inline;
 }
 
 .contacts-header .item+ .item {
@@ -316,6 +314,7 @@ justify-content: center;
 }
 .our-team-section {
     background: #F5F4FA;
+    padding-bottom: 94px;
 }
 .team .text {
     font-size: 16px;
